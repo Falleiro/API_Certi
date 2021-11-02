@@ -63,7 +63,7 @@ public class CertiService {
     public String escreve(CertiEntity resultadoCalculo){
 
         ExtensoEntity palavra = new ExtensoEntity();
-        //21000  15000 10000 09000 99999 11100 11011 11001
+        
         String texto="";
         int dezenaMilhar = resultadoCalculo.getDezenaMilhar();
         int unidadeMilhar = resultadoCalculo.getUnidadeMilhar();
